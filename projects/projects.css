@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: radial-gradient( circle farthest-corner at 8.3% 21.6%,  rgba(252,92,125,1) 13.1%, rgba(106,130,251,1) 90% );
+    justify-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+#title{
+    width: 400px;
+    border: 3px solid black;
+    margin-top: 50px;
+    padding: 14px 28px;
+    border-radius: 24px 8px 24px 8px;
+    background-color: rgba(255,255,255,0.3);
+    transition: 0.5s ease-in-out;
+    box-shadow: black 3px 5px 10px;
+}
+#title:hover{
+    transform: scale(1.1);
+    box-shadow: black 5px 8px 15px;
+}
+.main{
+    margin-top: 40px;
+    display: flex;
+    height: 100px;
+    gap: 20px;
+    width: 70%;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    justify-content: center;
+}
+.main:hover{
+    transform: scale(1.1);
+}
+.first1,.first2,.first3{
+    border: 2px solid black ;
+    width: 1000px;
+    transition: 0.5s ease-in-out;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 10px;
+}
+.first4,.first5{
+    border: 2px solid black ;
+    width: 50%;
+    transition: 0.5s ease-in-out;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 10px;
+}
+.first6{
+    border: 2px solid black ;
+    width: 100%;
+    transition: 0.5s ease-in-out;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 10px;
+}
+.first1:hover,.first2:hover,.first3:hover,.first4:hover,.first5:hover,.first6:hover{
+    transform: scale(1.1);
+    background-color: rgba(255, 255, 255, 0.3);
+}

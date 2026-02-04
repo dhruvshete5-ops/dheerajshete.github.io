@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-image: url("bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.navbar{
+    background-color: #15173D;
+    color: #E491C9;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 8px;
+    padding: 2px;
+}
+#item1,#item2,#item3,#item4,#item5{
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+#item1:hover,#item2:hover,#item3:hover,#item4:hover,#item5:hover{
+    transform: scale(1.2);
+    color: #982598;
+    text-decoration-line: underline;
+    text-decoration-color: #F1E9E9;
+}
+.head{
+    display: flex;
+    justify-content: center;
+}
+#roll1{
+    margin-top: 30px;
+    border: 5px solid #1A3263;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 0px 90px 0px 90px;
+    color: #E491C9;
+    background-color: #15173D;
+    box-shadow: 6px 8px 20px#0C2C55;
+    transition: 0.5s ease-in-out;
+}
+#roll1:hover{
+    transform: scale(1.1);
+    color: #F375C2;
+    box-shadow: 12px 16px 30px#0C2C55;
+}
+.roll{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+#roll2,#roll4{
+    margin-top: 60px;
+    height: 400px;
+    width: 400px;
+    background-color: #1A3263;
+    border: #F1E9E9 2px solid;
+    border-radius: 12px 33px 12px 53px;
+    color: #E491C9;
+    padding-top: 20px;
+    transition: 0.5s ease-in-out;
+    box-shadow: 5px 5px 8px rgb(223, 104, 124);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+}
+#roll2:hover,#roll4:hover{
+    transform: scale(1.1);
+    box-shadow: 10px 10px 16px pink;
+}
+#roll3{
+    margin-top: 20px;
+    cursor: pointer;
+    filter: drop-shadow(12px 18px 15px rgba(0, 0, 0, 0.4));
+    transition: 0.5s;
+}
+#roll3:hover{
+    transform: scale(1.1);
+}
+.point{
+    font-size: 40px;
+    margin: 20px;
+    color: #F375C2;
+}
+.code{
+    margin: 20px;
+}

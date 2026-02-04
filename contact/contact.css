@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    justify-items: center;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(20,12,239,1) 0%, rgba(198,253,249,1) 90% );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+#title{
+    border: 5px solid black;
+    padding: 30px;
+    border-radius: 5px 5px 50px 50px;
+    margin-top: 30px; 
+    background-color: rgba(255, 255, 255, 0.3); 
+    transition: 0.5s ease-in-out;
+    box-shadow: black 5px 8px 10px;
+}
+#title:hover{
+    transform: scale(1.1);
+    box-shadow: black 10px 14px 20px;
+}
+.link{
+    display: flex;
+    gap: 100px;
+}
+.insta,.email{
+    margin-top: 60px;
+    height: 350px;
+    width: 350px;
+    border: black 2px solid;
+    justify-items: center;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: black 5px 8px 10px;
+    transition: 0.5s ease-in-out;
+}
+.insta:hover,.email:hover{
+    transform: scale(1.1);
+    box-shadow: black 10px 14px 20px;
+}
+#insta_png{
+    height: 200px;
+    width: 200px;
+    margin-top: 35px;
+    border-radius: 35px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-image: image-set("insta.png");
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s ease-in-out;
+}
+#email_png{
+    height: 200px;
+    width: 200px;
+    margin-top: 35px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-image: image-set("email.png");
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s ease-in-out;
+}
+#insta_png:hover,#email_png:hover{
+    transform: scale(1.1);
+}
+.name{
+    margin-top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+.name:hover{
+    transform: scale(1.1);
+}
